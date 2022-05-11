@@ -35,7 +35,7 @@ The same as operators, but allows specification of functions which may have a va
 If an operation or function is not specified in the ARP file, then Dremio will handle the operation itself. Any operations which are indicated as supported but need to be stacked on operations which are not will not be pushed down to the SQL query.
 
 ## Building and Installation
-In root directory with the pom.xml file run mvn clean install
-Take the resulting .jar file in the target folder and put it in the \dremio\jars folder in Dremio
-Take the ServiceNow JDBC driver from (https://www.cdata.com/drivers/servicenow/jdbc/) and put in in the \dremio\jars\3rdparty folder
-Restart Dremio
+1. In root directory with the pom.xml file run mvn clean install
+2. Take the resulting .jar file in the target folder and put it in the \dremio\jars folder in Dremio
+3. Take the JDBC from https://mvnrepository.com/artifact/org.apache.calcite.avatica/avatica/1.20.0 and place this into the \dremio\jars\3rdparty folder 
+4. Restart Dremio
