@@ -1,0 +1,25 @@
+{
+  "sourceType": "DRUID",
+  "metadataRefresh": {
+    "datasetDiscovery": true
+  },
+  "form": {
+    "tabs": [
+      {
+        "name": "General",
+        "isGeneral": true,
+        "sections": [
+          {
+            "name": "Druid Source",
+            "layout": "row",
+            "elements": [
+                {
+                    "propName": "config.enableExternalQuery"
+                }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+}
