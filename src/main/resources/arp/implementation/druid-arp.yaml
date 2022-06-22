@@ -443,6 +443,51 @@ expressions:
       signatures:
         - args: []
           return: "double"
+
+    - names:
+        - "date_trunc_year"
+      signatures:
+        - args:
+            - "timestamp"
+          return: "timestamp"
+
+    - names:
+        - "date_trunc_month"
+      signatures:
+        - args:
+            - "timestamp"
+          return: "timestamp"
+
+    - names:
+        - "date_trunc_day"
+      signatures:
+        - args:
+            - "timestamp"
+          return: "timestamp"
+
+    - names:
+        - "date_trunc_hour"
+      signatures:
+        - args:
+            - "timestamp"
+          return: "timestamp"
+
+    - names:
+        - "date_trunc_minute"
+      signatures:
+        - args:
+            - "timestamp"
+          return: "timestamp"
+
+
+    - names:
+        - "date_trunc_second"
+      signatures:
+        - args:
+            - "timestamp"
+          return: "timestamp"
+      #    rewrite: "date_trunc('HOUR', {0})"
+
     - names:
         - "truncate"
       signatures:
