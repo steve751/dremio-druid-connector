@@ -26,8 +26,8 @@ syntax:
   identifier_length_limit: 256
   allows_boolean_literal: false
   map_boolean_literal_to_bit: false
-  supports_catalogs: false
-  supports_schemas: false
+  supports_catalogs: true
+  supports_schemas: true
 
 
 data_types:
