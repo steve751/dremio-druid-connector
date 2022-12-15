@@ -302,10 +302,10 @@ relational_algebra:
 
 expressions:
   subqueries:
-    enable: true
-    correlated: true
-    scalar: true
-    in_clause: true
+    enable: false
+    correlated: false
+    scalar: false
+    in_clause: false
   supports_case: true
   supports_over: true
   datetime_formats:
